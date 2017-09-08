@@ -1,3 +1,7 @@
+#
+# Created by Joe Tauke
+# 9/7/17
+#
 $vcenter = Read-Host "FQDN of vCenter Server:"
 Connect-VIServer $vcenter
 $srchost = Read-Host "FQDN of the ESX server you want to place in maintenance mode:"
